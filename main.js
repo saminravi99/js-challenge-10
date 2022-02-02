@@ -102,13 +102,11 @@ console.log(oddNumbers());
 let myArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 let myArrayElements = myArray.length;
-// console.log(myArrayElements);
-console.log(myArray.indexOf(1));
+console.log(myArrayElements);
 
-let change = myArray[3] = "hello";
-// console.log(change);
+myArray[3] = "hello";
 console.log(myArray);
-console.log(myArray[4])
+
 
 
 // Show Array element with for loop
